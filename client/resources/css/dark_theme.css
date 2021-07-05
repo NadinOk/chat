@@ -1,0 +1,98 @@
+#window_main_chat {
+    background-image: linear-gradient(rgba(59, 54, 50, 0.521), rgba(0, 33, 50, 1));
+}
+
+#label_user_name, #user_message, #sender_message, #fiend_entry, #entry_text_message, 
+#contact_row, #user, #contact_row:selected {
+    font-size: 16px;
+}
+
+#time {
+    font-size: 14px;
+    color: rgb(59, 54, 50);
+}
+
+#label_user_name, #user_message, #sender_message {
+	color: white;
+}
+
+#contact_row,  #scrolled_corespondent_list, #scrolled_window_chats,
+#scrolled_window_corespondent, #fiend_entry, #entry_text_message, #contact_row:selected {
+    border-radius: 10px;
+}
+
+#contact_row, #contact_row:selected {
+    padding: 8px;
+}
+
+#user_message {
+    background-color: rgba(0, 33, 50, 0.8);
+    border-radius: 8px;
+    padding: 10px;
+    margin: 6px 12px 6px 0;
+}
+
+#sender_message {
+    background-color: rgba(72, 123, 166, 0.8);
+    border-radius: 8px;
+    padding: 10px;
+    margin: 6px 12px 6px 0;
+}
+
+#theme_switch {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.521), rgba(0, 0, 0, 1));
+}
+
+#scrolled_chats_list { 
+	background: transparent;
+}
+
+#scrolled_corespondent_list {
+    background-color: rgba(255,255,255, 0.6);
+}
+
+#scrolled_corespondent_list > *:selected{
+    background-color: transparent;
+    color: black;
+}
+
+#scrolled_window_chats, #window_text_message_scrolled_atribut,
+#window_text_message_scrolled {
+    border: 1px solid transparent;
+}
+
+#scrolled_window_corespondent, #scrolled_corespondent_list {
+    border: 1px solid white;
+}
+
+#fiend_entry, #contact_row {
+    border-bottom: 1px solid white;
+    background-color: rgba(255,255,255, 0.6);
+}
+
+#fiend_entry:focus {
+    border-color: white;
+}
+
+#contact_row {
+    background-color: rgba(255,255,255, 0.6);
+    border-bottom: 1px solid white;
+    padding: 10px;
+}
+
+#contact_row, #contact_row + #contact_row {
+    margin-bottom: 10px;
+}
+
+#contact_row:selected {
+    background-color: rgba(0, 33, 50, 0.8);
+    border-bottom: 1px solid rgba(0, 33, 50, 0.8);
+}
+
+#entry_text_message {
+    background-color: rgba(255,255,255, 0.8);
+}
+
+#entry_text_message:focus {
+    border-color: white;
+}

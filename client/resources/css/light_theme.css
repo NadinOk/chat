@@ -1,0 +1,147 @@
+
+#register_window, #window_main_chat {
+    border: 5px double grey;
+    background-image: linear-gradient(rgba(221, 213, 210, 0.521), rgba(115, 167, 207, 1));
+}
+
+.login_window {
+    background: url('../media/background.jpg');
+    background-size: cover;
+}
+
+#status_label {
+    color: white;
+    background-image: linear-gradient(rgba(197, 18, 68, 0.521), rgba(197, 18, 68, 1));
+    padding: 10px;
+    border-radius: 0;
+    box-shadow: 1px 1px 1px #aaaaaa;
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+button {
+    border-radius: 5px;
+    border-width: 0px;
+    box-shadow: none;
+}
+
+
+#register_button, #register_register_button, #register_back_button {
+    background-image: linear-gradient(rgba(106, 115, 156, 0.521), rgba(106, 115, 156, 1));
+    color: black;
+    font-weight: 600;
+}
+
+#register_button:hover {
+    background-image: linear-gradient(rgba(115, 167, 207, 0.521), rgba(115, 167, 207, 1));
+}
+
+#login_button {
+    background-image: linear-gradient(rgba(127, 205, 242, 0.521), rgba(127, 205, 242, 1));
+    color: black;
+    font-weight: 600;
+}
+
+#register_button:hover, #login_button:hover , #register_back_button:hover{
+    font-weight: 800;
+}
+
+#username_entry, #password_entry {
+    background-color: rgba(255,255,255, 0.9);
+}
+
+/*CHAT WINDOW*/
+
+#label_user_name, #user_message, #sender_message, #fiend_entry, #entry_text_message, 
+#contact_row, #user, #contact_row:selected {
+    font-size: 16px;
+}
+
+#time {
+    font-size: 14px;
+    color: grey;
+}
+
+#label_user_name {
+    color: black;
+}
+
+#fiend_entry {
+    border-bottom: 1px solid white;
+    background-color: rgba(255,255,255, 0.6);
+}
+
+#scrolled_window_chats, #scrolled_window_corespondent, 
+#scrolled_corespondent_list, #contact_row, #fiend_entry, #entry_text_message, #contact_row:selected {
+    border-radius: 10px;
+}
+
+#scrolled_window_corespondent {
+    border: 1px solid white;
+}
+
+#scrolled_corespondent_list {
+    background-color: rgba(255,255,255, 0.6);
+}
+
+#scrolled_corespondent_list > *:selected{
+    background-color: transparent;
+    color: black;
+}
+
+#contact_row:selected {
+    border-bottom: 1px solid rgba(115, 167, 207, 0.8);
+    padding: 8px;
+}
+
+#contact_row {
+    background-color: rgba(255,255,255, 0.6);
+    border-bottom: 1px solid white;
+    padding: 10px;
+}
+
+#contact_row, #contact_row + #contact_row {
+    margin-bottom: 10px;
+}
+
+#contact_row:selected {
+    background-color: rgba(115, 167, 207, 0.8);
+}
+
+#user_message {
+    background-color: rgba(115, 167, 207, 0.8);
+    border-radius: 8px;
+    padding: 10px;
+    margin: 6px 12px 6px 0;
+    color: white;
+}
+
+#sender_message {
+    background-color: rgba(60, 105, 157, 0.8);
+    border-radius: 8px;
+    padding: 10px;
+    margin: 6px 12px 6px 0;
+    color: white;
+}
+
+#theme_switch {
+    background-image: linear-gradient(rgba(200, 200, 200, 0.521), rgba(200, 200, 200, 1));
+}
+
+#send_button, #stickers_button, #scrolled_chats_list, #refresh_button {
+	background: transparent;
+    padding: 10px;
+}
+
+#window_text_message_scrolled_atribut, #window_text_message_scrolled,
+#entry_text_message, #scrolled_window_chats, #scrolled_corespondent_list {
+    border: 1px solid transparent;
+}
+
+#entry_text_message {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+#entry_text_message:focus, #fiend_entry:focus {
+    border-color: white;
+}
